@@ -31,14 +31,14 @@
   notify:
     - killall Path Finder
 
-- name: Set the default text editor app
-  osx_defaults:
-    domain: com.cocoatech.PathFinder
-    key: textEditorApplicationPath
-    type: string
-    value: "/Applications/Atom.app"
-  notify:
-    - killall Path Finder
+# - name: Set the default text editor app
+#   osx_defaults:
+#     domain: com.cocoatech.PathFinder
+#     key: textEditorApplicationPath
+#     type: string
+#     value: "/Applications/Atom.app"
+#   notify:
+#     - killall Path Finder
 
 - name: 'Set "Reveal in Path Finder" to "Reveal in new tab"'
   osx_defaults:

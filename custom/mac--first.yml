@@ -10,7 +10,7 @@
 
     - { role: macos, tags: "macos" }
     - { role: ssh, tags: "ssh" }
-    - { role: danbohea.atom, tags: ["atom","no_ci"] }
+    # - { role: danbohea.atom, tags: ["atom","no_ci"] }
     - { role: danbohea.quick-look-plugins, tags: ["quick_look_plugins","no_ci"] }
     - { role: terminal, tags: "terminal" }
     - { role: danbohea.macos-spelling, tags: "spelling" }

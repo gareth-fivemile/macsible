@@ -1,7 +1,7 @@
 ---
 
-- src: danbohea.atom
-  version: master
+# - src: danbohea.atom
+#   version: master
 - src: danbohea.cask-app
   version: 1.0.1
 - src: danbohea.flux
