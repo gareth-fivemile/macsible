@@ -1,0 +1,22 @@
+---
+
+- src: danbohea.atom
+  version: master
+- src: danbohea.cask-app
+  version: 1.0.1
+- src: danbohea.flux
+  version: master
+- src: danbohea.google-chrome
+  version: master
+- src: danbohea.homebrew
+  version: master
+- src: danbohea.macos-dock
+  version: 1.0.0
+- src: danbohea.quick-look-plugins
+  version: master
+- src: danbohea.sketch
+  version: master
+- src: danbohea.skype
+  version: master
+- src: danbohea.macos-spelling
+  version: 1.0.0

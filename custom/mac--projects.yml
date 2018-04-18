@@ -1,0 +1,11 @@
+---
+- name: Custom - Projects
+  hosts: all
+
+  vars_files:
+    - config.yml
+    - config.local.yml
+
+  roles:
+
+    - { role: projects, tags: "projects" }
