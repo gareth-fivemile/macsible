@@ -26,10 +26,10 @@
     value: true
   with_items:
     - { name: 'Show external hard drives on the desktop', key: 'ShowExternalHardDrivesOnDesktop'}
-    - { name: 'Show internal hard drives on the desktop', key: 'ShowHardDrivesOnDesktop'}
+    # - { name: 'Show internal hard drives on the desktop', key: 'ShowHardDrivesOnDesktop'}
     - { name: 'Show mounted servers on the desktop', key: 'ShowMountedServersOnDesktop'}
     - { name: 'Show removable media on the desktop', key: 'ShowRemovableMediaOnDesktop'}
-    - { name: 'Show hidden files by default', key: 'AppleShowAllFiles'}
+    # - { name: 'Show hidden files by default', key: 'AppleShowAllFiles'}
     - { name: 'Show status bar', key: 'ShowStatusBar'}
     - { name: 'Show path bar', key: 'ShowPathbar'}
     - { name: 'Allow text selection in Quick Look', key: 'QLEnableTextSelection'}
@@ -48,14 +48,14 @@
   notify:
     - killall Finder
 
-- name: Disable the warning when changing a file extension
-  osx_defaults:
-    domain: com.apple.finder
-    key: FXEnableExtensionChangeWarning
-    type: bool
-    value: false
-  notify:
-    - killall Finder
+# - name: Disable the warning when changing a file extension
+#   osx_defaults:
+#     domain: com.apple.finder
+#     key: FXEnableExtensionChangeWarning
+#     type: bool
+#     value: false
+#   notify:
+#     - killall Finder
 
 # TODO: Fails
 # - name: Enable snap-to-grid for icons on the desktop and in other icon views
