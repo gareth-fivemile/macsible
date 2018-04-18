@@ -3,9 +3,9 @@
 # Filenames must include .app extension.
 login_items_apps:
   - Alfred 3.app
-  - aText.app
+  # - aText.app
   - Bartender 2.app
-  - BetterTouchTool.app
+  # - BetterTouchTool.app
   - Dropbox.app
   - Flux.app
   - HazelHelper.app
