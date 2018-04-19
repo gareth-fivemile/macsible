@@ -1,0 +1,6 @@
+---
+
+- name: Install pygmy
+  gem:
+    name: pygmy
+    state: latest

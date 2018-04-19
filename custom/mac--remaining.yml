@@ -40,3 +40,15 @@
     - { cask_app_name: "licecap", tags: "licecap", role: danbohea.cask-app }
     # - { cask_app_name: "arduino", tags: "arduino", role: danbohea.cask-app }
     # - { cask_app_name: "resilio-sync", tags: "resilio_sync", role: danbohea.cask-app }
+
+    - { brew_pkg_name: "autojump", tags: "autojump", role: brew_pkg }
+    - { brew_pkg_name: "the_silver_searcher", tags: "the_silver_searcher", role: brew_pkg }
+    - { cask_app_name: "spotify", tags: "spotify", role: danbohea.cask-app }
+    - { cask_app_name: "textmate", tags: "textmate", role: danbohea.cask-app }
+    - { cask_app_name: "paparazzi", tags: "paparazzi", role: danbohea.cask-app }
+    - { cask_app_name: "sizeup", tags: "sizeup", role: danbohea.cask-app }
+    - { cask_app_name: "phpstorm", tags: "phpstorm", role: danbohea.cask-app }
+    - { cask_app_name: "1password", tags: "1password", role: danbohea.cask-app }
+    - { cask_app_name: "postman", tags: "postman", role: danbohea.cask-app }
+    - { cask_app_name: "torbrowser", tags: "torbrowser", role: danbohea.cask-app }
+

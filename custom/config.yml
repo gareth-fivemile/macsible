@@ -62,33 +62,22 @@
 
 # Filenames must include .app extension.
 macos_dock_apps:
-  # - Path Finder.app
-  # - Dash.app
-  - Skype.app
+  - Finder.app
+  - Google Chrome.app
+  - Safari.app
+  - TextMate.app
+  - PhpStorm.app
   - Slack.app
-  - Firefox.app
-  # - Inkdrop.app
-  # - Evernote.app
-  - Skitch.app
-  - Calendar.app
-  # - Atom.app
-  - Todoist.app
-  - System Preferences.app
-  # - xScope.app
-  # - Tower.app
-  - Transmit.app
-  - Sequel Pro.app
-  - VirtualBox.app
   - Terminal.app
 
 # sketch
 # ------------------------------------------------------------------------------
 
-sketch_plugin_repos:
-  - https://github.com/bomberstudios/sketch-commands.git
-  - https://github.com/ddwht/sketch-dynamic-button.git
-  - https://github.com/getflourish/Sketch-Style-Inventory.git
-  - https://github.com/marcosvidal/Sketch-Notebook
-  - https://github.com/ScottSavarie/Clipboard-Fill.git
-  - https://github.com/timuric/Content-generator-sketch-plugin.git
-  - https://github.com/tylergaw/day-player.git
+# sketch_plugin_repos:
+#   - https://github.com/bomberstudios/sketch-commands.git
+#   - https://github.com/ddwht/sketch-dynamic-button.git
+#   - https://github.com/getflourish/Sketch-Style-Inventory.git
+#   - https://github.com/marcosvidal/Sketch-Notebook
+#   - https://github.com/ScottSavarie/Clipboard-Fill.git
+#   - https://github.com/timuric/Content-generator-sketch-plugin.git
+#   - https://github.com/tylergaw/day-player.git
