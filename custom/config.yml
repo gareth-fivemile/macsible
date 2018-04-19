@@ -63,7 +63,7 @@
 # Filenames must include .app extension.
 macos_dock_apps:
   # - Path Finder.app
-  - Dash.app
+  # - Dash.app
   - Skype.app
   - Slack.app
   - Firefox.app
@@ -74,8 +74,8 @@ macos_dock_apps:
   # - Atom.app
   - Todoist.app
   - System Preferences.app
-  - xScope.app
-  - Tower.app
+  # - xScope.app
+  # - Tower.app
   - Transmit.app
   - Sequel Pro.app
   - VirtualBox.app

@@ -12,19 +12,19 @@
     - { role: composer, tags: "composer" }
     - { role: node_pkgs, tags: "node_pkgs" }
     - { role: pip_pkgs, tags: "pip_pkgs" }
-    - { role: tower, tags: "tower" }
-    - { role: danbohea.sketch, tags: ["sketch","no_ci"] }
+    # - { role: tower, tags: "tower" }
+    # - { role: danbohea.sketch, tags: ["sketch","no_ci"] }
     - { brew_pkg_name: "bash-completion", tags: "bash_completion", role: brew_pkg }
     - { brew_pkg_name: "python", tags: "python", role: brew_pkg }
     - { brew_pkg_name: "yarn", tags: "yarn", role: brew_pkg }
-    - { brew_pkg_name: "TomAnthony/brews/itermocil", tags: "itermocil", role: brew_pkg }
+    # - { brew_pkg_name: "TomAnthony/brews/itermocil", tags: "itermocil", role: brew_pkg }
     # TODO: Failing builds.
     # - { cask_app_name: "virtualbox", tags: "virtualbox", role: danbohea.cask-app }
-    - { cask_app_name: "dash", tags: "dash", role: danbohea.cask-app }
+    # - { cask_app_name: "dash", tags: "dash", role: danbohea.cask-app }
     - { cask_app_name: "kaleidoscope", tags: "kaleidoscope", role: danbohea.cask-app }
     - { cask_app_name: "sequel-pro", tags: "sequel_pro", role: danbohea.cask-app }
     - { cask_app_name: "transmit", tags: "transmit", role: danbohea.cask-app }
     - { cask_app_name: "imageoptim", tags: "imageoptim", role: danbohea.cask-app }
-    - { cask_app_name: "xscope", tags: "xscope", role: danbohea.cask-app }
+    # - { cask_app_name: "xscope", tags: "xscope", role: danbohea.cask-app }
     - { cask_app_name: "slack", tags: "slack", role: danbohea.cask-app }
     - { cask_app_name: "browserstacklocal", tags: "browserstacklocal", role: danbohea.cask-app }
