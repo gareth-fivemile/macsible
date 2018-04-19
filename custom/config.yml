@@ -85,3 +85,9 @@ macos_dock_apps:
 login_items_apps:
   - Dropbox.app
   - SizeUp.app
+  
+# Whether the Dock automatically hides.
+macos_dock_autohide: false
+
+# The size of icons in the Dock.
+macos_dock_icon_size: 30
