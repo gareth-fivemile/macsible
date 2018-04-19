@@ -17,5 +17,5 @@
 - import_tasks: ssd.yml
 - import_tasks: spotlight.yml
 - import_tasks: textedit.yml
-- import_tasks: time_machine.yml
+# - import_tasks: time_machine.yml
 - import_tasks: trackpad_mouse.yml

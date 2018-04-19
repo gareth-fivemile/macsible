@@ -62,13 +62,13 @@
 
 # Filenames must include .app extension.
 macos_dock_apps:
-  - Path Finder.app
+  # - Path Finder.app
   - Dash.app
   - Skype.app
   - Slack.app
   - Firefox.app
-  - Inkdrop.app
-  - Evernote.app
+  # - Inkdrop.app
+  # - Evernote.app
   - Skitch.app
   - Calendar.app
   # - Atom.app
