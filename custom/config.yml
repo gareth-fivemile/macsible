@@ -81,3 +81,7 @@ macos_dock_apps:
 #   - https://github.com/ScottSavarie/Clipboard-Fill.git
 #   - https://github.com/timuric/Content-generator-sketch-plugin.git
 #   - https://github.com/tylergaw/day-player.git
+
+login_items_apps:
+  - Dropbox.app
+  - SizeUp.app
