@@ -28,4 +28,5 @@
     # - { cask_app_name: "xscope", tags: "xscope", role: danbohea.cask-app }
     - { cask_app_name: "slack", tags: "slack", role: danbohea.cask-app }
     - { cask_app_name: "browserstacklocal", tags: "browserstacklocal", role: danbohea.cask-app }
+    - { cask_app_name: "parallels", tags: "parallels", role: danbohea.cask-app }
     - { role: pygmy, tags: "pygmy" }
